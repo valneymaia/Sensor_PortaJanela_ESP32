@@ -1,3 +1,5 @@
+1° Pegue um codigo exemplo no arduino 
+- Exemplo -> UniversalTelegramBot -> ESP32 -> SendMessageFromEvent
 
 -> Use @myidbot ([IdBot](https://telegram.me/myidbot)) para saber qual o seu ID
 
