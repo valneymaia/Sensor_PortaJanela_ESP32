@@ -1,12 +1,10 @@
 
-// Use @myidbot ([IdBot](https://telegram.me/myidbot)) para saber qual o seu ID
-
-
+-> Use @myidbot ([IdBot](https://telegram.me/myidbot)) para saber qual o seu ID
 
 Iniciar chat com IDBot -> /start  -- iniciar o Bot -> /getid   -- Pegar seu ID
-
+```
 #define CHAT_ID "1108206840"   //ID do seu Telegram
-
+```
 Para gerar seu novo Bot, você precisa de um Access Token. Fale com o [BotFather](https://telegram.me/botfather) e siga alguns passos simples descritos aqui .
 
 Inclua o UniversalTelegramBot no seu projeto:
