@@ -1,16 +1,16 @@
 #include <WiFi.h>
 #include <WiFiClientSecure.h>
 #include <UniversalTelegramBot.h>
-#include <ArduinoJson.h>0
+#include <ArduinoJson.h>
 
 // Dados do WiFi
-#define WIFI_SSID "CLICK-Valney"
-#define WIFI_PASSWORD "15072003"
+#define WIFI_SSID "Wifi-name"
+#define WIFI_PASSWORD "12345678"   
 // Telegram BOT Token (Botfather)
-#define BOT_TOKEN "7193380733:AAG4P59YKBYByVPKEXOs82TVaG1yQie_B6w"
+#define BOT_TOKEN "XXXXXXXXX:XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
 
 // Use @myidbot (IDBot) para saber qual o seu ID
-#define CHAT_ID "1108206840"
+#define CHAT_ID " 0101010101" 
 
 WiFiClientSecure secured_client;
 UniversalTelegramBot bot(BOT_TOKEN, secured_client);
@@ -57,8 +57,8 @@ void loop() {
 
   if (Porta == 0) {
     if (flag) {
-      Serial.println("Porta Aberta");
-      bot.sendMessage(CHAT_ID, "Porta Aberta", "");
+      Serial.println("porta Aberta");
+      bot.sendMessage(CHAT_ID, "Porta Aberta Valney", "");
       flag = 0;
     }
   } else {
